@@ -1,3 +1,6 @@
 package com.home.cp.cmd
 
-case class CPCommand ()
+import com.home.common.cmd.GenererDocumentCommand
+
+
+final case class CPCommand() extends GenererDocumentCommand

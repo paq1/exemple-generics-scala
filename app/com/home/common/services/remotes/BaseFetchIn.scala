@@ -1,3 +1,5 @@
-package com.home.common.services.remotes trait BaseFetchIn {
+package com.home.common.services.remotes
+
+trait BaseFetchIn {
 
 }

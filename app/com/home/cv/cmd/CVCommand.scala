@@ -1,3 +1,5 @@
 package com.home.cv.cmd
 
-case class CVCommand ()
+import com.home.common.cmd.GenererDocumentCommand
+
+final case class CVCommand() extends GenererDocumentCommand

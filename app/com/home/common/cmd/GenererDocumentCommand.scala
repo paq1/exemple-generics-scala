@@ -1,8 +1,5 @@
-package com.home.cmd
+package com.home.common.cmd
 
-sealed trait GenererDocumentCommand {
+trait GenererDocumentCommand {
 
 }
-
-final case class CVCommand() extends GenererDocumentCommand
-final case class CPCommand() extends GenererDocumentCommand
